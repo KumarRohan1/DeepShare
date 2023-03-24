@@ -103,8 +103,12 @@ router.post('/send', async(req,res) => {
              expires: '24 Hours' 
         })
 
+    }).then(() => {
+        return res.send({success: 'true'});
+    })
+    .catch((e) => {
+        console.log("Error: ",e);
     });
-    return res.send({success: 'true'});
 
 });
 

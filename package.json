@@ -2,12 +2,10 @@
   "name": "deepshare",
   "version": "1.0.0",
   "description": "File Sharing App",
-  "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js",
-    "serve": "node server.js"
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Rohan Kumar Sah",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
