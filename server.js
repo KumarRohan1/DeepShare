@@ -23,7 +23,7 @@ app.use((req, res, next) => {
   });
 
 
-//Template Engine
+//Template En
 app.set('views', path.join(__dirname,'/views'));
 app.set('view engine','ejs');
 
